@@ -1,0 +1,55 @@
+<!doctype>
+<html>
+	<header>
+		<title>Html2中的表格</title>
+		<meta charset="utf-*"></meta>
+	</header>
+	<body>
+		<div>
+			<strong>
+				模块：Html5中的表格</br>
+				时间：2017-04-08</br>
+				编写人：小帅</br>
+				版本：V1.0						
+			</strong>
+		</div>	
+		<h2>Html5中的表格</h2>
+		<h6>表格table</h6>	
+		<ul>
+			<li><b>说明：</b>表格主要用来显示数据，表格布局已被抛弃</li>
+			<li><b>基本属性：</b></li>			
+		</ul>	
+		<h6>表格的基本组成元素</h6>		
+		<ul>
+			<li><b>th：</b>定义表头</li>
+			<li><b>tr：</b>定义表格行</li>
+			<li><b>td：</b>定义表格单元，colsapn &nbsp;&nbsp; rowspan</li>
+		</ul>
+		<h6>完成的表格标记元素</h6>		
+		<ul>
+			<li><b>caption：</b>表格标题</li>			
+			<li><b>thead：</b>表头</li>
+			<li><b>tbody：</b>主体</li>
+			<li><b>tfoot：</b>脚注</li>
+		</ul>
+		<div>
+			<table>
+				<tr>
+					<th>姓名</th>
+					<th>性格</th>
+					<th>成绩</th>
+				</tr>					
+				<tr>
+					<td>peeta</td>
+					<td>female</td>	
+					<td>99</td>
+                </tr>
+				<tr>
+					<td>windy</td>
+					<td>male</td>	
+					<td>100</td>
+                </tr>
+			</table>	
+		</div>
+	</body>
+</html>

@@ -5,6 +5,15 @@
 		<meta charset="utf-8"></meta>
 	</header>
 	<body>	
+		<div>
+			<strong>
+				模块：Html5中的表单</br>
+				时间：2017-06-20</br>
+				编写人：小帅</br>
+				版本：V1.0
+			</strong>
+		</div>
+		<h2>Html5中的表格</h2>
 		<h6>表单From</h6>
 		<ul>
 			<li>说明：用来收集网页上浏览者输入的相关信息</li>
