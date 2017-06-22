@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>html5中使用CSS的方法</title>
+</head>
+<body>
+    <div>
+		<strong>
+			模块：在html5中使用CSS的方法<br/>
+			时间：2017-06-22<br/>
+			编写人：小帅<br/>
+			版本：V1.0						
+		</strong>
+	</div>	
+    <hr/>
+	<div>
+		<h6>CSS控制html5页面效果的方式</h6>
+		<ul>
+			<li><b>行内样式</b></li>
+			<li><b>内嵌样式</b></li>
+			<li><b>链接样式</b></li>			
+		</ul>
+	</div>  
+	<hr>
+    <div>
+    	<h6>行内样式</h6>
+        <ul>
+            <li><b>说明：</b>行内样式直接在html标记中使用style属性，该属性的内容就是CSS的属性和值</li>
+			<li><b>举例：</b></li>		
+			```
+           <p style="color:red;font-style:italic">正文内容</p>    
+			```
+          <li><b>分析：</b>行内样式比较简单，但无法完全发挥样式表“内容结构和样式控制代分析”的优势，<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;也不利于样式的重用</li>
+        </ul>
+    </div>
+	<hr/>
+	<div>
+		<h6>内嵌样式</h6>
+		<ul>
+			<li><b>说明：</b>将样式代码添加到head之前，并用Style标记声明</li>
+			<li><b>举例：</b></li>
+			```
+			<head>
+				<style>	
+					p
+					{
+						color:red;
+						font-style:italic;
+					}
+				</style>	
+			</head>
+			```
+			<li><b>分析：</b>没有完全实现界面内容和样式控制完全分离，但可以设置一些比较简单且需要统一的页面</li>
+		</ul>
+	</div>
+	<hr/>
+	<div>
+		<h6>内嵌样式</h6>
+		<ul>
+			<li><b>说明：</b>外部定义CSS样式表并形成以.css为扩展名的文件，然后通过link标记链接到页面中。<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该链接语句必须放在页面的head标记区；</li>
+			<li><b>举例：</b>
+			```
+			<head>
+				<link rel="stylesheet" type="text/css" href="1.css" ></link>	
+			</head>
+			```
+				<ul>
+					<li><b>rel：</b>表示链接到样式表，其值为stylesheet</li>
+					<li><b>type：</b>标识样式类型为CSS样式表</li>
+					<li><b>href：</b>指定了CSS样式表文件的路径</li>
+				</ul>
+			</li>
+			<li><b>分析：</b>可以很好的将“页面内容”和“样式风格代码”分离，实现了页面框架html和Css代码完全分离</li>			
+		</ul>
+	</div>
+	<hr/>
+	<div>
+		<h6>样式优先级</h6>
+		<ul>
+			<li>行内样式 &gt; 内嵌样式</li>
+			<li>内嵌样式 &gt; 链接样式</li>			
+		</ul>
+	</div>
+</body>
+</html>
