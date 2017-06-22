@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>html5中使用CSS的方法</title>
+</head>
+<body>
+    <div>
+		<strong>
+			模块：CSS选择器<br/>
+			时间：2017-06-23<br/>
+			编写人：小帅<br/>
+			版本：V1.0						
+		</strong>
+	</div>
+	<hr/>	
+	<div>
+		<h6>CSS选择器</h6>	
+		<ul>
+			<li><b>说明：</b>通过不同的CSS选择器可以控制html中的每个标记，从而达到控制整个html文档的呈现样式</li>
+			<li><b>分类</b>
+				<ul>
+					<li><b>标记选择器</b></li>
+					<li><b>类选择器</b></li>
+					<li><b>ID选择器</b></li>
+					<li><b>全局选择器</b></li>
+					<li><b>组合选择器</b></li>
+					<li><b>继承选择器</b></li>
+					<li><b>伪类</b></li>
+					<li>属性选择器</li>
+					<li>结构伪类选择器</li>
+					<li>UI元素伪类选择器</li>
+				</ul>
+			</li>			
+		</ul>
+	</div>
+	<hr/>
+</body>
+<html>
