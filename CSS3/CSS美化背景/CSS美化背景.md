@@ -39,6 +39,22 @@
 					<li><b>background-position: position || position</b></li>
 				</ul>
 			</li>
+			<li><b>background-size</b>：	指定背景图像的大小
+				<ul>
+					<li><b>auto</b>：默认值，保持图片原来的大小 </li>
+					<li><b>length</b>:表示具体的值，第一个值表示宽度，第二值表示高度；如果只给出一个值，第二个只自动为auto</li>
+					<li><b>percentage</b>:表示百分比，用法同上</li>
+					<li><b>cover</b>:此值是将图片放大，以适合铺满整个容器；适合于图片大小小于容器的情况</li>
+					<li><b>contain</b>:此值是将图片放大，以适合铺满整个容器；适合于图片大于容器的情况</li>
+				</ul>
+			</li>
+			<li><b>Transform</b>：Transform属性应用于元素的2D或3D转换。这个属性允许你将元素旋转，缩放，移动，倾斜等
+				<ul>
+					<li><b>translate(X,Y)</b>：表示水平、垂直移动该元素块</li>
+					`transform:translate(120,120) 表示向右位移120px，如果向上位移120px`
+					<li><b></b>：</li>
+				</ul>
+			</li>
 		</ul>	
 	</div>
 </body>
