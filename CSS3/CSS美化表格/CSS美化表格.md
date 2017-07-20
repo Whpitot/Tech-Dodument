@@ -26,6 +26,15 @@
 					<li><b>border-radius</b>：定义边框的圆角效果</li>					
 				</ul>
 			</li>
+			<li><b>box-shadow</b>
+				<ul>
+					<li><b>X-offset</b>:阴影水平偏移量，如果值为正值，则阴影在对象的右边，其值为负值时，阴影在对象的左边；</li>
+					<li><b>Y-offset</b>：阴影垂直偏移量，如果为正值，阴影在对象的底部，其值为负值时，阴影在对象的顶部；</li>
+					<li><b>blur-radius</b>：阴影模糊半径，值越大，阴影边缘就越模糊；</li>
+					<li><b>spread-radius</b>：阴影扩展半径，如果值为正，则整个阴影都延展扩大，反之值为负值时，则缩小；</li>
+					<li><b>color</b>：阴影颜色，设置阴影颜色</li>
+				</ul>
+			</li>
 		</ul>
 		```
 		border:1px solid green border-radius:10px border-collapse:separate
