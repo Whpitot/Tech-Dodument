@@ -50,6 +50,10 @@
 	</div>
 	<div>
 		<h5>对象的主要方法</h5>
+		<li><b>(System.IO.Stream) GetRequestStream()</b>：获取一个流文件对象，然后将数据写入到流中</li>
+		`System.IO.Stream requestStream = request.GetRequestStream()`
+		`requestStream.Write(byteArray,0,byteArray.Length);`
+		`requedtStream.Close();`
 		<li><b>(WebResponse) GetResponse()</b>：返回来自 Internet 资源的响应。</li>
 		`System.Net.HttpWebResponse response = request.GetResponse() as System.Net.HttpWebResponse;`
 	</div>
