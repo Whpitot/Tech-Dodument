@@ -35,17 +35,19 @@
 		<li><b>SerializeObject</b>：序列化一个对象</li>
 		可以用一个匿名类处理简单的数据结构：  
 			`var o = new {Name = "windy",Age = 12,High = 175};`  
-			`var strJson = JsonConvert.SerializeObject(o);`
+			`var strJson = JsonConvert.SerializeObject(o);`  
+            `strJson = {"Name":"windy","Age":12,"High":175}`
 		<li><b>DeserializeObject</b>：反序列化一个对象</li>
 		可以用一个匿名类处理简单的数据结构：
 		<ul>
 			<li>提取局部信息</li>
-			`var o = DeserializeObject(strJson) as JObject;`  
+			利用JObject的索引器获取局部信息
+			`var o = JsonConvert.DeserializeObject(strJson) as JObject;`  
 			`Console.Write(o.Name);`  
 			`Console.Write(o.Age);`
 			<li>提取完整信息</li>
 			`var anonymous = new {Name =  String.Empty,Age = 0, High = 0} `  
-			`var o DeserializeObject(strJson,anonymous)`  
+			`var o = JsonConvert.DeserializeObject(strJson,anonymous)`  
 			`Console.Write(o.Name);`  
 			`Console.Write(o.Age);`
 		</ul>
